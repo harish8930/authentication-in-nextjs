@@ -1,11 +1,9 @@
 import {
   SignInButton,
   SignOutButton,
-  SignUpButton,
   // UserButton,
   SignedIn,
   SignedOut,
-  UserButton,
 } from "@clerk/nextjs";
 import Link from "next/link";
 export const Navigation = () => {
