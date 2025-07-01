@@ -23,7 +23,7 @@ export const Navigation = () => {
           {/* Auth & Nav Links */}
           <div className="flex items-center gap-6">
             <SignedOut>
-              <SignInButton mode="modal">
+              <SignInButton>
                 <button className="text-white bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-md transition-colors duration-200">
                   Sign In
                 </button>
